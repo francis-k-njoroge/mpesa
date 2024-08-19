@@ -4,16 +4,16 @@ if (isset($_POST['submit'])) {
   date_default_timezone_set('Africa/Nairobi');
 
   # access token
-  $consumerKey = 'MqfBGsjwCBzsPQqZYnBvDlrlTqDzf3WE'; //Fill with your app Consumer Key
-  $consumerSecret = 'jECAhNpcIfLTLnGn';  //Fill with your app Consumer Secret
+  $consumerKey = ''; //Fill with your app Consumer Key
+  $consumerSecret = '';  //Fill with your app Consumer Secret
   //ACCESS TOKEN URL
 
   # define the variables
-  $BusinessShortCode = '4138395';
-  $Passkey = '5b3a3be51e1cee4b6ddc434ddd8124c4a307cb314dca41d982d7fcdd9e995eb9';    
+  $BusinessShortCode = '';
+  $Passkey = '';    
 
   $PartyA = $_POST['phone']; // This is your phone number, 
-  $AccountReference = 'EDWIN-API TEST';
+  $AccountReference = 'AMOH-API TEST';
   $TransactionDesc = 'Account Activation';
   
   # Get the timestamp, format YYYYmmddhms
