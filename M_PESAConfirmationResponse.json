@@ -1,0 +1,91 @@
+[
+    
+    
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "0528-4964-bbde-4f38e64fe5f163810691",
+            "CheckoutRequestID": "ws_CO_17082024111300961111446888",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+},
+
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "69be-41a1-9cc1-b494e9e2076663833276",
+            "CheckoutRequestID": "ws_CO_17082024111436897111446888",
+            "ResultCode": 2001,
+            "ResultDesc": "The initiator information is invalid."
+        }
+    }
+}
+
+,
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "0528-4964-bbde-4f38e64fe5f163824690",
+            "CheckoutRequestID": "ws_CO_17082024112156290111446888",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+}
+,
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "69be-41a1-9cc1-b494e9e2076663852043",
+            "CheckoutRequestID": "ws_CO_17082024112648298111446888",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+},
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "b7ce-4622-9675-9520b1cedd5756858478",
+            "CheckoutRequestID": "ws_CO_17082024113023871111446888",
+            "ResultCode": 0,
+            "ResultDesc": "The service request is processed successfully.",
+            "CallbackMetadata": {
+                "Item": [
+                    {
+                        "Name": "Amount",
+                        "Value": 1
+                    },
+                    {
+                        "Name": "MpesaReceiptNumber",
+                        "Value": "SHH2CWCRAO"
+                    },
+                    {
+                        "Name": "Balance"
+                    },
+                    {
+                        "Name": "TransactionDate",
+                        "Value": 20240817113032
+                    },
+                    {
+                        "Name": "PhoneNumber",
+                        "Value": 254111446888
+                    }
+                ]
+            }
+        }
+    }
+},
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "9566-48c7-8be0-71e5ae4748f016477863",
+            "CheckoutRequestID": "ws_CO_17082024194004253111446888",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+}
+]
